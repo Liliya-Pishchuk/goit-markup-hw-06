@@ -442,6 +442,8 @@ img {
 /*----------------footer----------------*/
 .footer {
   background-color: var(--main-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-container {
@@ -451,8 +453,6 @@ img {
 
 .adress {
   margin-right: 70px;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo-link {
@@ -568,6 +568,7 @@ img {
   height: 50px;
   margin-left: 12px;
   border-radius: 4px;
+  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -675,6 +676,8 @@ img {
   border-radius: 4px;
   padding-left: 42px;
   outline: none;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .form-input:hover,
@@ -729,6 +732,11 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.form-checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .form-checkbox:checked + .form-checkbox-label::before {
   background-color: var(--button-color);
   border: none;
@@ -771,6 +779,7 @@ img {
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
